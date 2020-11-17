@@ -1,0 +1,54 @@
+body {
+  background-color: #1E90FF;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#mostra {
+  padding: 20px 25px;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#mostra:hover {
+  cursor: pointer;
+}
+
+.box-multipli {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#multipli {
+  width: 120px;
+  margin-top: 80px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  background: lightblue;
+}
